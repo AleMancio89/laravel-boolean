@@ -12,10 +12,12 @@
     @include('layouts._header')
 
     <main>
-        <h1>
-            @yield('title')
-        </h1>
-        @yield('description')
+        <div class="content container">
+            <h1>
+                @yield('title')
+            </h1>
+            @yield('description')
+        </div>
     </main>
 
         

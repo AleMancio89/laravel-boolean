@@ -8,3 +8,59 @@ body {
     background-color: #00E165; /* (#001632) */
 }
 
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+.d-flex{
+    display:flex;
+}
+
+header{
+    background-color: #001632;
+}
+
+.nav{    
+    height:70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+    display: flex;
+    justify-content: center;
+    align-content: center;    
+    margin-right: 40px; 
+    padding: 10px;   
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+ul li.active{
+/*     border-radius: 30px;
+    background-color: #00E165; */
+    border-bottom: 2px solid #00E165;
+}
+
+ul li.active a{
+    color: #00E165;
+}
+
+#btn{
+    border: 2px solid #00E165;
+    border-radius: 10px;
+    background-color: #001632;
+    color: #00E165;
+    padding: 10px;
+}
+
+.content h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
