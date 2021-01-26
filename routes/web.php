@@ -15,10 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/home', 'HomeController@index');
+Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/dopo-il-corso', 'DopoController@index');
+Route::get('/dopo-il-corso', 'DopoController@index')->name('dopo-il-corso');
 
-Route::get('/corso', 'CorsoController@index');
+Route::get('/corso', 'CorsoController@index')->name('corso');
 
-Route::get('/camp', 'CampController@index');
+Route::get('/camp', 'CampController@index')->name('camp');
