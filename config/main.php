@@ -19,6 +19,10 @@ return[
             'pathId' => 'camp',
             'text' => 'Camp Gratuito'
         ],
+        [
+            'pathId' => 'utenti',
+            'text' => 'Utenti'
+        ],
     ]
 
 ];

@@ -22,3 +22,8 @@ Route::get('/dopo-il-corso', 'DopoController@index')->name('dopo-il-corso');
 Route::get('/corso', 'CorsoController@index')->name('corso');
 
 Route::get('/camp', 'CampController@index')->name('camp');
+
+Route::get('/utenti', 'UtenteController@index')->name('utenti');
+
+Route::get('/utenti/{id}', 'UtenteController@show')->name('utenti.show');
+

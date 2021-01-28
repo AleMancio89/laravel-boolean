@@ -1,6 +1,6 @@
 <header>
     <div class="nav container d-flex">
-       <img src="img/logo-white.png" alt="logo"> 
+       <img src="{{ asset('img/logo-white.png') }}" alt="logo"> 
        <div class="menu d-flex">
            <ul class="d-flex">
                 @foreach (config('main.routes') as $route)                

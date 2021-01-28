@@ -64,3 +64,62 @@ ul li.active a{
     margin-bottom: 40px;
 }
 
+/* UTENTI */
+
+.users-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row.users{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 200px;
+    max-width: 200px;
+    padding: 20px;
+    margin: 10px 20px;
+    height: 360px;
+    background: #001632;
+    text-align: center;
+}
+
+.user img {
+    height: 160px;
+    width: 160px;
+}
+
+.user h3 {
+    margin: 20px 0;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.user span.gender {
+    color: grey;
+    font-size: 20px;
+}
+
+.user span.year {
+    color: grey;
+}
+
+.user a{
+    margin-top: 5px;
+    text-decoration: none;
+    color: red;
+}
+
